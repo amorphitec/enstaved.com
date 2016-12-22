@@ -1,0 +1,68 @@
+/* Fonts */
+
+@font-face {
+   font-family: Celtknot; 
+   src: url('../fonts/Celtknot.ttf');
+} 
+
+@font-face {
+   font-family: Stonecross; 
+   src: url('../fonts/stonecross.ttf');
+} 
+
+@font-face {
+   font-family: Viking; 
+   src: url('../fonts/Viking_n.ttf');
+} 
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.text-vertical-center h1 {
+   color: rgb(20,20,20);
+   margin: 0;
+   padding: 0;
+   font-size: 4.5em;
+   font-weight: 700;
+   /*font-family: Stonecross*/ 
+   vertical-align: 30%;
+}
+
+.text-vertical-center h3 {
+   color: rgb(20,20,20);
+   margin: 0;
+   padding: 0;
+   font-size: 2.5em;
+   font-weight: 700;
+}
+
+/* Header */
+
+.header {
+    display: table;
+    position: relative;
+    height: 100%;
+    background: url(../img/bg-2.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,1);
+}
+
+
